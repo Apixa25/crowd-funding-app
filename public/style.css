@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-card,
+.custom-project-card {
+  display: flex;
+  width: 75%;
+  margin: 20px;
+}
+
+.custom-card-header {
+  display: flex;
+  justify-content: space-between;
+}
